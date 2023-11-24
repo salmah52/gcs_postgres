@@ -33,7 +33,7 @@ DEFAULT_ARGS = {
 def create_green_taxi_table():
     from airflow.hooks.postgres_hook import PostgresHook
 
-    postgres_conn_id = 'pg_conn'  # Replace with your PostgreSQL connection ID
+    postgres_conn_id = ''  # Replace with your PostgreSQL connection ID
     table_name = 'nyctabl009'  # Replace with your PostgreSQL table name
 
     # Assuming that you have a CSV file, read its first row to get column names and types
